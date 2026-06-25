@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp-auto-forward-mongo",
+  "version": "1.0.0",
+  "description": "Auto-forward images from configured WhatsApp groups to a target group. Uses MongoDB for session persistence.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "whatsapp-web.js": "^1.19.0",
+    "wwebjs-mongo": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
